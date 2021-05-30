@@ -1,0 +1,385 @@
+@font-face{
+    font-family: "OpenSans";
+    src: url(fonts/OS/OpenSans.woff) format("woff"),
+            url(fonts/OS/OpenSans.woff2) format("woff2"),
+            url(fonts/OS/OpenSans.ttf) format("truetype");
+}
+@font-face{
+    font-family: "OpenSansBold";
+    src: url(fonts/OSB/OpenSansBold.woff) format("woff"),
+            url(fonts/OSB/OpenSansBold.woff2) format("woff2"),
+            url(fonts/OSB/OpenSansBold.ttf) format("truetype");
+}
+@font-face{
+    font-family: "OpenSansSemibold";
+    src: url(fonts/OSSB/OpenSansSemibold.woff) format("woff"),
+            url(fonts/OSSB/OpenSansSemibold.woff2) format("woff2"),
+            url(fonts/OSSB/OpenSansSemibold.ttf) format("truetype");
+}
+header{
+    width: 100%;
+    max-width: 1900px;
+    height: 70px;
+    background: #1d2124;
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    position: relative;
+	width: 370px;
+    display: flex;
+    flex-grow: 4;
+}
+.logoim{
+    display: flex;
+    width: 70px;
+	height: 70px;
+    background: #1a1d20;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    display: flex;
+    width: 70px;
+	height: 70px;
+    background: #171a1c;
+    align-items: center;
+    justify-content: center;
+}
+.logot{
+    font-family: "OpenSansBold";
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 24px;
+    left: 76px;
+}
+.mainmenu{
+    position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-grow: 9;
+}
+.menul{
+    padding-right: 37px;
+}
+.t{
+    font-family: "OpenSansSemibold";
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+.fh{
+    background: url(img/header-bg.jpeg);
+    width: 100%;
+    max-width: 1900px;
+    height: 376px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    background-size: 150%;
+    background-position: center 75%;  
+}
+.fht{
+    font-family: "OpenSans";
+    font-size: 27px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.bo{
+    margin-right: 20px;
+}
+.butt{
+    position: relative;
+    top: 30px;
+    border-radius: 5px;
+    width: 170px;
+    height: 55px;
+    font-family: "OpenSansSemibold";
+    font-size: 18px;
+    color: white;
+    border: 0;
+}
+#hb1{
+    background-color: #89ca62;
+}
+#hb2{
+     background-color: #14b9d5;
+}
+#hb1:hover{
+    background-color: #519d24;
+}
+#hb2:hover{
+    background-color: #25a2b7;
+}
+button:focus{
+    outline: none;
+}
+.cont{
+	position: relative;
+	height: 1030px;
+	background: #f2f2f2;
+	max-width: 1900px;
+	margin:auto;
+	display: flex;
+	justify-content: center;
+}
+.most{
+	position: absolute;
+	top: 60px;
+	font-family: "OpenSansBold";
+	font-size: 27px;
+	text-transform: uppercase;
+	color: #18b4cf;
+}
+.container1 {
+	position: relative;
+	top: 133px;
+    width: 1169px;
+	height: 856px;
+}
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  height: 100%;
+  max-width: 100%;
+}
+.item {
+  width: 31.5%;
+  position: relative;
+  margin-bottom: 30px;
+  background-color: white;
+  text-align: center;
+}
+.bi2{
+    background: url(img/parallax-bg.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+/*    background-position: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    max-width: 1900px;
+    height: 590px;
+    display: grid;
+}
+.fht2{
+    font-family: "OpenSansBold";
+    font-size: 32px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top: 110px;
+    left: 223px;
+    text-align: center;
+}
+.title{
+    background-color: #169cb4;
+    width: 60px;
+    height: 3px;
+    position: relative;
+    left: 420px;
+    top: -20px;
+}
+.brands{
+    position: relative;
+    top: -120px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 72px;
+}
+.ncont{
+    height: 2020px;
+    width: 100%;
+    max-width: 1900px;
+    position: relative;
+    background: white;
+    display: grid;
+    justify-content: center;
+}
+.TRt{
+    position: relative;
+    top: 62px;
+    text-align: center;
+    font-family: "OpenSansBold";
+	font-size: 27px;
+	text-transform: uppercase;
+	color: #18b4cf;
+}
+.li{
+	position: absolute;
+	top: 136px;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	align-items: center;
+}
+.im1{
+    width: 100%;
+    height: 100%;
+     height: 190px;
+    max-width: 270px;
+}
+.HNt{
+    font-family: "OpenSansBold";
+    position: absolute;
+    left: 605px;
+    top: 386px;
+    font-size: 27px; 
+    color: #18b4cf;
+    text-transform: uppercase; 
+    text-align: center;
+}
+.grcon{
+  display: grid;
+    grid-gap:35px 35px;
+    position: absolute; 
+    top: 460px;
+    left: 80px;
+    grid-template-columns: 277px 277px 277px 277px;
+  grid-template-rows: 259px 418px 418px 259px;
+    grid-template-areas:
+    "one one one two"
+    "three three four four"
+    "five five six six"
+    "seven eight eight eight";
+}
+.grcon * {
+  background-color: #f9f7f7;
+  position: relative;
+}
+.p1 { grid-area: one; }
+.p2 { grid-area: two; }
+.p3 { grid-area: three; }
+.p4 { grid-area: four; }
+.p5 { grid-area: five; }
+.p6 { grid-area: six; }
+.p7 { grid-area: seven; }
+.p8 { grid-area: eight; }
+.p1t{
+    width: 410px; 
+    height: 259px;
+    text-align: center;
+    position: absolute;
+    left: 483px;
+}
+.p8t{
+    width: 410px; 
+    height: 0px;
+    text-align: center;
+    position: absolute;
+    left: 483px;
+}
+.p2t{
+    text-align: center;
+    height: 52px;
+    position: absolute;
+    top: 207px;
+    width: 277px;
+}
+.p3t{
+    text-align: right;
+    width: 563px;
+    height: 110px;
+    position: absolute;
+    top: 308px;
+}
+.zt1{
+    font-family: "OpenSansBold";
+    font-size: 18px;
+    color: #353a3d;
+    position: relative;
+    top: -224px;
+}
+.zt2{
+    font-family: "OpenSansBold";
+    font-size: 18px;
+    color: #353a3d;
+    position: relative;
+    top: 14px;
+}
+.zt3{
+    font-family: "OpenSansBold";
+    font-size: 18px;
+    color: #353a3d;
+    position: relative;
+    top: 283px;
+	left: 267px;
+}
+.zt4{
+    font-family: "OpenSansBold";
+    font-size: 18px;
+    color: #353a3d;
+    position: relative;
+    top: 283px;
+	left: 247px;
+}
+.zt5{
+    font-family: "OpenSansBold";
+    font-size: 18px;
+    color: #353a3d;
+    position: relative;
+    top: 283px;
+	left: 295px;
+}
+.zt6{
+    font-family: "OpenSansBold";
+    font-size: 18px;
+    color: #353a3d;
+    position: relative;
+    top: 283px;
+	left: 227px;
+}
+.pt1{
+    font-family: "OpenSansSemibold";
+    font-size: 14px;
+    color: #5d6469;
+    position: relative;
+    top: -203px;
+    line-height: 20px;
+}
+.ph3{
+    position: absolute; 
+    width: 588px; 
+    height: 259px;
+}
+.ph{
+    width: 100%;
+}
+.pt2{
+     font-family: "OpenSansSemibold";
+    font-size: 14px;
+    color: #5d6469;
+    position: relative;
+    line-height: 20px;
+}
+footer{
+    width: 100%;
+    max-width: 1900px;
+    height: 80px;
+    display: grid;
+    text-align: center;
+    justify-items: center; 
+	align-items: center;
+    position: relative;
+	background: #1d2124;
+    grid-template-columns: auto auto;
+    font-family: "OpenSans";
+	font-size: 13px;
+    color: white;
+}
