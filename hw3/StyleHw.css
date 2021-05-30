@@ -1,0 +1,210 @@
+@font-face{
+    font-family: "Verdana";
+    src: url(fonts/Verdana/18028.ttf) format("truetype");
+}
+body{
+    background-image: url(img/background.jpg);
+/*    max-width: 1280px;*/
+     overflow: auto;
+    background-repeat: no-repeat;      
+	background-attachment: fixed; 
+	background-size: cover;  
+}
+.container{
+
+    font-family: "Verdana";
+    width: 100%;
+    max-width: 1180px;
+    height: 100%;
+/*    max-height: 770px;*/
+    margin-top: 50px;
+    margin-bottom: 22px; 
+    margin-left: 155px;
+}
+header{
+    width: 100%;
+/*    max-width: 1180px;*/
+    height: 46px;
+    max-height: 46px;
+}
+.ch {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;  
+    font-family: Verdana;
+    display: flex;
+    flex-flow: column;
+     float: left;
+   position: absolute;
+}
+.ch:hover .lv{
+    color: #f26522;
+}
+.ch:hover .ln{
+    color: #f26522;
+}
+.ch:hover .cartlg{
+     background: url(img/logo1.png);
+}
+.lv{
+		position: absolute;
+		margin-top: -4px;
+		margin-left:62px; 	
+		font-family: Verdana;
+		font-size: 29px;
+		color: white;
+		text-transform:uppercase;
+		
+}
+.ln{
+		position: absolute;
+		margin-top: 28px;
+		margin-left:63px;
+		font-family: Verdana;
+		font-size: 18px;
+		color: white;
+		text-transform:uppercase;  
+
+}
+
+.logop{
+    margin-right: 120px;
+    float: right;
+    text-align: right;
+    display: flex;
+    flex-flow: column;
+}
+.logop a{
+    padding-bottom: 9px;
+    text-decoration: none;
+    color: white;
+}
+.pl{
+ font-size: 18px;
+}
+main{
+    margin-top: 46px;
+    height: 100%;
+
+}
+.cartlg{
+    display: block;
+    background: url(img/logo.png);
+    height: 46px;
+    width: 46px;
+}
+.cartlg:hover{
+    height: 46px;
+    width: 46px;
+}
+
+.blockkart{
+    
+    height: 600px;
+}
+.bloccard{
+    margin-bottom: 23px;
+		position:relative;
+		height: 202px;
+		width: 310px;
+		overflow: hidden;
+}
+
+.fr{
+ 	  
+    text-align: center;
+    position:relative;
+    margin-right: 65px;
+    height: 248px;
+    width: 310px;
+    float: left;
+    margin-bottom: 57px;
+}
+
+
+.sr{
+    text-align: center;
+    position:relative;
+    margin-right: 65px;
+    height: 248px;
+    width: 310px;
+    float: left;
+    margin-bottom: 60px;
+}
+footer{
+    font-size: 12px;
+    position: absolute;
+    font-family: "Verdana";
+    font-size: 12px;
+    top:737px;
+    left: 513px;
+    color: white;
+}
+.copyr{
+   text-align: center;
+    padding-bottom: 23px;
+       
+}
+.bloccard img{
+    position: relative;
+        background: linear-gradient(to right, white, black);
+        padding: 2px;
+}
+.hoverbl:after {
+    position: absolute;
+    content: ">";
+    font: 20px;
+    display: block;
+    left: 288px;
+    opacity: 0.5;
+    color: white;
+    top: 36px;
+    
+}
+.hoverbl{
+    position: absolute;
+    width: 310px;
+    height: 62px;
+    background: #f26522;
+    transition: margin 0.5s linear;
+    margin-bottom: -100px;
+    bottom: 0;
+}
+
+.cc:hover .cc1{
+    color: #f26522;
+}
+.cc:hover .hoverbl{
+    margin-bottom: 0;
+}
+.s1{
+    position:absolute; 
+		margin-top:17px;
+		margin-left:-134px;
+		font-family: "Verdana";
+		font-size: 10px;
+		color: white;
+}
+.s2{
+    position:absolute; 
+		margin-top:32px;
+		margin-left:-134px;
+		font-family: "Verdana";
+		font-size: 20px;
+		color: white;
+}
+.s3{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 30px;
+    font-family: "Verdana";
+    font-size: 14px;
+    color: white;
+}
+.cc1{
+    color: white;
+}
+.cc{
+    text-decoration: none;
+    font-size: 18px;
+}
