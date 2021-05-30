@@ -1,0 +1,159 @@
+@font-face{
+    font-family: "Arimo_B";
+    src: url(fonts/ArimoOther/arimo-bold.woff) format("woff"),
+            url(fonts/ArimoOther/arimo-bold.woff2) format("woff2"),
+            url(fonts/ArimoOther/arimo-bold.eot) format("eot"),
+            url(fonts/ArimoOther/arimo-bold.svg) format("svg"),
+            url(fonts/Arimo/Arimo.ttf) format("truetype");
+}
+@font-face{
+    font-family: "Arimo";
+    src: url(fonts/ArimoOther/arimo.woff) format("woff"),
+            url(fonts/ArimoOther/arimo.woff2) format("woff2"),
+            url(fonts/ArimoOther/arimo.eot) format("eot"),
+            url(fonts/ArimoOther/arimo.svg) format("svg"),
+            url(fonts/Arimo/Arimo-Bold.ttf) format("truetype");
+}
+body{
+    background: #3a4965;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    margin-bottom: 23px;
+    margin-left: 30px;
+}
+table{
+
+	background-color: #fafafa;
+	align-content: center;
+}
+td{
+    text-align: center;
+}
+.r1{
+    width: 157px;
+	background-color: #e3e3e3;
+}
+.r2{
+    width: 157px;
+	background-color: #f2f2f2;
+}
+.CP1{
+    font-family: "Arimo_B";
+    font-size: 14px;
+    color: #484848;
+    text-transform: uppercase;
+     position: relative;
+    top: 38px;
+}
+.CP2{
+    font-family: "Arimo_B";
+    font-size: 20px;
+    color: #484848;
+    text-transform: uppercase;
+    position: relative;
+    top: 46px;
+}
+.cypp{
+    height: 113px;
+    width: 225px;
+    background-color: #fafafa;
+}
+.sp{
+    height: 171px;
+    width: 225px;
+    background-color: #89c331;
+}
+.up{
+    height: 167px;
+    width: 225px;
+    background-color: #f04a56;
+}
+.pp{
+    height: 167px;
+    width: 225px;
+   background-color: #20807c;
+}
+.fa-archive, .fa-cloud-upload-alt,.fa-life-ring, .fa-cube, .fa-users, .fa-envelope{
+	font-size: 24px;
+	color: #848484;
+    position: relative;
+    top: 47px;
+} 
+.storag{
+     font-family: "Arimo";
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #484848;
+    position: relative;
+    top: 55px;
+}
+.elem{
+    font-family: "Arimo";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #484848;
+    position: relative;
+    top: 63px;
+}.g{
+    font-family: "Arimo_B";
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top: 17px;
+    left: 20px;
+    text-align: center;
+}
+.st_d{
+    position: relative;
+    font-family: "Arimo_B";
+    text-transform: uppercase;
+    font-size: 36px;
+    color: white;
+    top: 57px;
+    right: 122px;
+}
+.cprs{
+    position: relative;
+    top: 23px;
+    text-align: left;
+    left: 73px;
+}
+.st_c{
+    font-family: "Arimo_B";
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+}
+.pms{
+    font-family: "Arimo_B";
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    left: 30px;
+}
+.but{
+    font-family: "Arimo_B";
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    height: 42px;
+    width: 144px;
+    position: relative;
+    top: 55px;
+}
+#hb2{
+    box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.6);
+    background-color: #414141;
+}
+#hb2:hover{
+    background-color: #515050;
+}
+button:focus{
+    outline:none;
+} 
